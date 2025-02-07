@@ -11,7 +11,6 @@ class CalcTest(SimpleTestCase):
         res = calc.add(5, 6)
         self.assertEqual(res, 11)
 
-
     def test_multiply_numbers(self):
         res = calc.multiply(5, 6)
         self.assertEqual(res, 30)
